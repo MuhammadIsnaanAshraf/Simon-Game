@@ -54,7 +54,7 @@ function btnpress() {
 }
 
 function checkSeq(idx) {
-  // let idx = level - 1
+  // let idx = level
   if (userseq[idx] === gameseq[idx]) {
     if (userseq.length == gameseq.length) {
       setTimeout(levelUp, 1000);
