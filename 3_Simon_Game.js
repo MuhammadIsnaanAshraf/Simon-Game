@@ -60,9 +60,17 @@ function checkSeq(idx) {
       setTimeout(levelUp, 1000);
     }
   } else {
+    if (level == 0){
     h3.innerText = `Game Over! . And your score is ${
-      level 
+      level
     }. Press any key to start the game again.`;
+    }
+    else{
+       h3.innerText = `Game Over! . And your score is ${
+      level - 1
+    }. Press any key to start the game again.`;
+    }
+    }
     let bodyclr = document.querySelector("body");
     bodyclr.style.backgroundColor = "red";
     setTimeout(function () {
