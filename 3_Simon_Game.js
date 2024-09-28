@@ -61,7 +61,7 @@ function checkSeq(idx) {
     }
   } else {
     h3.innerText = `Game Over! . And your score is ${
-      level - 1
+      level 
     }. Press any key to start the game again.`;
     let bodyclr = document.querySelector("body");
     bodyclr.style.backgroundColor = "red";
