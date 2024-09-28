@@ -70,7 +70,6 @@ function checkSeq(idx) {
       level - 1
     }. Press any key to start the game again.`;
     }
-    }
     let bodyclr = document.querySelector("body");
     bodyclr.style.backgroundColor = "red";
     setTimeout(function () {
